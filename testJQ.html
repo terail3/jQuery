@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>Тест</title>
+	<link rel="stylesheet" href="style.css" />
+</head>
+	<body>
+		<header>	
+			<img src="webLogo.png" alt="Логотип" width="300" /><br />
+			<h1>Основы Web-технологий</h1>	
+		<nav>	
+			<ul>
+				<li><a href="index.html">Главная</a></li>
+				<li><a href="web-technology.html">Web-технологии</a>
+					<ul class="dropdown">
+						<li><a href="HTML5.html">HTML5</a></li>
+						<li><a href="CSS3.html">CSS3</a></li>
+						<li><a href="JavaScript.html">JavaScript</a></li>
+					</ul>
+				</li>
+				<li><a href="calculator.html">Калькулятор</a></li>
+				<li><a href="test.html">Тест</a></li>
+			</ul>
+		</nav>
+		</header>
+		<div id="content">
+			<form name="test">		
+				<p>Какой тег предназначен для создания ссылок:<br />
+				<input type="radio" name="k1" value="&lt;a>" />&lt;a><br />
+				<input type="radio" name="k1" value="&lt;a />" />&lt;a /><br />
+				<input type="radio" name="k1" value="&lt;ref>" />&lt;ref><br />
+				<input type="radio" name="k1" value="&lt;ref />" />&lt;ref /></p>
+				<p>Какой тег предназначен для создания нумерованного списка:<br />
+				<input type="radio" name="k2" value="&lt;li>" />&lt;li><br />
+				<input type="radio" name="k2" value="&lt;dl>" />&lt;dl><br />
+				<input type="radio" name="k2" value="&lt;ol>" />&lt;ol><br />
+				<input type="radio" name="k2" value="&lt;ul>" />&lt;ul></p>
+				<p>Какой тег предназначен для передачи служебной информации браузеру:<br />
+				<input type="radio" name="k3" value="&lt;info>" />&lt;info><br />
+				<input type="radio" name="k3" value="&lt;info />" />&lt;info /><br />
+				<input type="radio" name="k3" value="&lt;meta>" />&lt;meta><br />
+				<input type="radio" name="k3" value="&lt;meta />" />&lt;meta /></p>
+				<p>Какие теги используются при создании таблицы:<br />
+				<input type="checkbox" name="k4" value="&lt;bodyt>" />&lt;bodyt><br />
+				<input type="checkbox" name="k4" value="&lt;td>" />&lt;td><br />
+				<input type="checkbox" name="k4" value="&lt;groupcol>" />&lt;groupcol><br />
+				<input type="checkbox" name="k4" value="&lt;col />" />&lt;col /></p>
+				<p>Какие атрибуты используются при создании форм:<br />
+				<input type="checkbox" name="k5" value="autocomplete" />autocomplete<br />
+				<input type="checkbox" name="k5" value="action" />action<br />
+				<input type="checkbox" name="k5" value="charset" />charset<br />
+				<input type="checkbox" name="k5" value="validate" />validate</p>
+				<p><input id="testresult" type="button" name="rez"  value="Результат" /></p>
+			</form>		
+		</div>
+		<footer>		
+			<address><a href="mailto:mail@example.com">Пишите:mail@mail</a></address>
+			&copy; Фамилия И.О.,год
+		</footer>
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="TestJQ.js"></script>
+	</body>
+</html>

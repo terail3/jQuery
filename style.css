@@ -1,0 +1,105 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-color: gray;
+}
+header,div,footer {
+	background-color: white;
+	padding: 3px;
+	border-radius: 10px;
+	width: 800px;
+	margin: auto;
+}
+footer {
+	text-align: center;
+}
+header {
+	position: relative;
+	height: 185px;
+}
+header>nav {
+	position: absolute;
+	height: 25px;
+	left: 300px;
+	bottom: 0;
+}
+header>img {
+	display: block;
+	position: absolute;	
+}
+header>nav ul li  {
+	list-style-type: none;
+	display: inline-block;
+	position: relative;
+}
+nav .dropdown {
+	position: absolute;
+	background: white;
+	display: none;
+	width: 68px;
+	padding: 2px;
+}
+nav li:hover .dropdown {
+	display: block;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+#content ul,dd {
+	padding-left: 40px;
+}
+#content {
+	font-family: Arial, sans-serif;	
+	text-align: justify;
+}
+#sidebar{
+	float: right;
+	width: 275px;
+	border-radius: 10px;
+	background-color: gray;
+	margin-left: 4px;
+	font: normal lighter 17px Times New Roman;	
+}
+#text {
+	text-align: justify;	
+}
+h1 {
+	position: absolute;
+	top: 65px;
+	left: 320px;
+}
+
+h2 {
+	line-height: 2.0;
+}
+p>input {
+	margin-left: 10px;
+}
+table {
+	
+	border: 1px;
+	border-collapse: fixed;
+    width: 300px;
+	margin: auto;
+	text-align: center;
+	border-spacing: 2px 4px;
+}
+td,tr {
+	padding: 0;
+	border: 0;	
+}
+td>input {
+	width: 56px;
+	height: 34px;	
+}
+input.area {
+	width: 296px;
+	height: 30px;
+}
+input.zero {
+	width: 119px;
+}
+input.anyway {
+	height: 72px;
+}	
